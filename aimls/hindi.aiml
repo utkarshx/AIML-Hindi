@@ -10,9 +10,9 @@
     <!-- Last modified 11/23/2011 -->
     <!-- -->
     <category>
-        <pattern>Hello Mr *</pattern>
+        <pattern>हैलो</pattern>
         <template>
-            Bhai is a bot on Pandorabots.
+            क्या हाल है
         </template>
     </category>
 </aiml>
