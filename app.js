@@ -11,9 +11,11 @@ aiml.parseFiles(filenames, function(err, topics){
   engine = new aiml.AiEngine('Default', topics, {name: 'Buddy'}); 
 });
 app.get('/query/:id', function(req, res){  
+  console.log(req.params.id);
   var response = engine.reply({name: 'You'}, req.params.id, function(err, response){
-         res.send(response);
-    });
+    console.log(response);     
+    res.send(response);
+  });
 }); 
 app.get("/", function (req, res) { 
     res.redirect("/index.html");
