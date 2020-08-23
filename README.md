@@ -1,4 +1,3 @@
-AIChat
-======
+Hindi AIML Chat Bot
 
-AI Chat using AIML
+Hindi Bot using AIML
