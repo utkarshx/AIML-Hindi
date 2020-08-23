@@ -6,4 +6,10 @@
             क्या हाल है
         </template>
     </category>
+    <category>
+        <pattern>सब अच्छा *</pattern>
+        <template>
+            सुन कर अच्छा लगा
+        </template>
+    </category>
 </aiml>
